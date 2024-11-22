@@ -1,0 +1,55 @@
+# Face Emotion Detection and Analysis
+
+This project is a Python-based application that uses face recognition and emotion detection to process video frames. It leverages libraries such as `face_recognition`, `DeepFace`, and `OpenCV`.
+
+## Features
+- Detects faces in video frames.
+- Analyzes emotions using DeepFace.
+- Draws bounding boxes and emotion labels on faces.
+- Efficiently processes video by skipping frames while maintaining annotations.
+
+---
+
+## Installation Instructions
+
+### Prerequisites
+- Python 3.7 or later installed.
+- `pip` package manager installed.
+- A virtual environment setup (recommended).
+
+### Step 1: Clone the Repository
+Clone the project repository to your local machine:
+```bash
+git clone https://github.com/your-repo-name/face-emotion-detection.git
+cd face-emotion-detection
+
+### Step 2: Create and Activate a Virtual Environment
+Set up a virtual environment to isolate project dependencies:
+```
+python3 -m venv .venv
+````
+Activate the virtual environment:
+
+#### macOS/Linux:
+```
+python3 -m venv .venv
+
+```
+#### Windows:
+```
+.venv\Scripts\activate
+
+```
+
+### Step 3: Install Dependencies
+
+```  
+pip install -r requirements.txt
+
+```
+
+### Running the Project
+```
+python main.py
+
+```
